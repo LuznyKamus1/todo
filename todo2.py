@@ -82,7 +82,9 @@ def done_task():
     contents["todo"][sys.argv[3]]["tasks"][sys.argv[4]]=True
 
 def help():
-    print("")
+    f=open("help.txt", "r")
+    print(f.read())
+    f.close()
 
 match sys.argv[1]:
     case "new":

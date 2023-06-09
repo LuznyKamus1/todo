@@ -3,8 +3,8 @@ new:
     task: 'creates a new task in a todo with provided name'
     main: 'change the main todo'
 remove:
-    todo: 'removes todo'
-    task: 'removes task'
+    todo *name of todo*: 'removes todo'
+    task *name of todo* *name of task*: 'removes task'
 read:
     main: 'returns the name of the main task'
     task_percent *name of todo*: 'returns percentage of done tasks from provided todo'
